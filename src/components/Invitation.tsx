@@ -224,7 +224,21 @@ export default function Invitation({ revealed, guestName, entered }: { revealed:
         <p className="footer__couple">
           {wedding.groom.english} <span>&amp;</span> {wedding.bride.english}
         </p>
-        <Thoranam className="footer__thoranam" id="foot-th" />
+        
+
+        <div className="credit">
+          <p className="credit__eyebrow">
+            அன்புடன் வடிவமைத்தது <span aria-hidden="true">·</span> Designed &amp; Developed by
+          </p>
+          <div className="credit__brand">
+            <img src="/images/mecatronix-emblem.webp" alt="" width="40" height="60" loading="lazy" />
+            <span className="credit__name">
+              <span>MECA</span>TRONIX
+            </span>
+          </div>
+          <p className="credit__tagline">Where tradition meets technology</p>
+          <p className="credit__place">8300454800,Coimbatore</p>
+        </div>
       </footer>
     </main>
   );
